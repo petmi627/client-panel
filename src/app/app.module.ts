@@ -11,6 +11,7 @@ import { ClientEditComponent } from './components/client-edit/client-edit.compon
 import { ClientDetailsComponent } from './components/client-details/client-details.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import { SettingsComponent } from './components/settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { RegisterComponent } from './components/register/register.component';
     ClientEditComponent,
     ClientDetailsComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule
