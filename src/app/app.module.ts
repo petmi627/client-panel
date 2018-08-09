@@ -8,6 +8,7 @@ import { ClientsComponent } from './components/clients/clients.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { ClientAddComponent } from './components/client-add/client-add.component';
 import { ClientEditComponent } from './components/client-edit/client-edit.component';
+import { ClientDetailsComponent } from './components/client-details/client-details.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ClientEditComponent } from './components/client-edit/client-edit.compon
     ClientsComponent,
     SidebarComponent,
     ClientAddComponent,
-    ClientEditComponent
+    ClientEditComponent,
+    ClientDetailsComponent
   ],
   imports: [
     BrowserModule
