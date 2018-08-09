@@ -9,6 +9,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { ClientAddComponent } from './components/client-add/client-add.component';
 import { ClientEditComponent } from './components/client-edit/client-edit.component';
 import { ClientDetailsComponent } from './components/client-details/client-details.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ClientDetailsComponent } from './components/client-details/client-detai
     SidebarComponent,
     ClientAddComponent,
     ClientEditComponent,
-    ClientDetailsComponent
+    ClientDetailsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule
