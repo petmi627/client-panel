@@ -10,6 +10,7 @@ import { ClientAddComponent } from './components/client-add/client-add.component
 import { ClientEditComponent } from './components/client-edit/client-edit.component';
 import { ClientDetailsComponent } from './components/client-details/client-details.component';
 import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LoginComponent } from './components/login/login.component';
     ClientAddComponent,
     ClientEditComponent,
     ClientDetailsComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule
