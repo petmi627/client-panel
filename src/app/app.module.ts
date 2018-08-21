@@ -24,6 +24,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ClientService } from './service/client.service';
 import {FlashMessagesModule} from 'angular2-flash-messages';
 import {AuthService} from './service/auth.service';
+import {SettingsService} from './service/settings.service';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,7 @@ import {AuthService} from './service/auth.service';
     AngularFireAuthModule,
     FormsModule
   ],
-  providers: [ClientService, AuthService],
+  providers: [ClientService, AuthService, SettingsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
