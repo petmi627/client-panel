@@ -13,7 +13,7 @@ import {SettingsService} from '../../service/settings.service';
 export class NavbarComponent implements OnInit {
     isLoggedIn: boolean = false;
     loggedInUser: string;
-    showRegister: string;
+    showRegister: boolean;
 
     constructor(
         private flashMessage: FlashMessagesService,
